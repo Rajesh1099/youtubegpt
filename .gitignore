@@ -1,0 +1,30 @@
+# Ignore Python virtual environments
+venv/
+backend/venv/
+
+# Ignore __pycache__
+**/__pycache__/
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+
+# Ignore large packages
+*.dll
+*.lib
+*.so
+*.pyc
+*.pyo
+
+# Node.js (React frontend)
+frontend/node_modules/
+frontend/build/
+
+.env
+# Environment
+*.env
+.env.*
